@@ -173,7 +173,7 @@ https://www.tooplate.com/view/2120-ben-resume
   -----------------------------------------*/
 
   .navbar {
-    background: transparent;
+    background: grey;
     padding: 0.3rem 1rem;
     transition: all 300ms ease-in-out;
     position: absolute;
@@ -301,7 +301,13 @@ https://www.tooplate.com/view/2120-ben-resume
   /*---------------------------------------
      HERO                
   -----------------------------------------*/
-
+  .header-italic {
+    font-style: italic;
+    font-size: 1.5em; /* Adjust the size as needed */
+    color: #333; /* Change the color if you want it to stand out more */
+    font-weight: bold; /* Make the text bold to stand out */
+  }
+  
   
   .hero-content {
     display: flex;
@@ -378,64 +384,25 @@ https://www.tooplate.com/view/2120-ben-resume
     width: 30%;
     margin-right: 1rem;
   }
-
-
-  /*---------------------------------------
-     FAQ                 
-  -----------------------------------------*/
-
-  .faq .card-header {
-    padding: 0;
-  }
-
-  .faq .btn-link {
-    color: var(--dark-color);
-    font-size: var(--h6-font-size);
-    text-align: left;
-    display: block;
-    width: 100%;
-    padding: 1rem 2rem;
-  }
-
-  .faq .btn-link:focus, 
-  .faq .btn-link:hover {
-    color: var(--dark-color);
-    text-decoration: none;
-  }
-
-  .faq .card-body {
-    padding: 2rem;
-  }
-
-  .faq-info-text {
-    font-size: var(--base-font-size);
-    display: block;
-    margin: 1.5rem 2rem 0 2rem;
-  }
-
-
-  /*---------------------------------------
-     TESTIMONIALS               
-  -----------------------------------------*/
   .social-links {
     list-style: none;
     padding: 0;
-}
+ }
 
-.social-links li {
+ .social-links li {
     display: inline;
     margin-right: 10px;
-}
+ }
 
-.social-links a {
+ .social-links a {
     text-decoration: none;
     font-size: 24px;
     color: #000; /* Change this to your preferred color */
-}
+ }
 
-.social-links a:hover {
+ .social-links a:hover {
     color: #007bff; /* Change this to your preferred hover color */
-}
+ }
 
 
   /*---------------------------------------
